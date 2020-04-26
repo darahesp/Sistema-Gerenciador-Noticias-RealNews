@@ -41,7 +41,7 @@ public class Noticias extends HttpServlet {
 		ArrayList<Comentario> listaComentarios = comentariaService.listarComentario();
 		
 		
-		saida.println("<h2>Coment·rios:</h2>");
+		saida.println("<h2>Coment√°rios:</h2>");
 		
 		listaComentarios.forEach(c -> {
 					
@@ -80,15 +80,6 @@ public class Noticias extends HttpServlet {
 		saida.println("<input type='submit' value='Enviar'>");
 		saida.println("</form>");
 		
-		//idC = Integer.parseInt(request.getParameter("id_comentario"));
-		//String nomeC = request.getParameter("nome_comentario");
-		//String textoC = request.getParameter("texto_comentario");
-		//int fk = Integer.parequest.getParameter(id);
-		
-		//Comentario comentario = new Comentario();
-		//comentario.setId(idC);
-		//comentario.setNome(nomeC);
-		//comentario.setTexto(textoC);
 		
 
 		
